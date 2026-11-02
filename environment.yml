@@ -1,0 +1,39 @@
+name: sd_vto
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+
+
+  # Core PyTorch stack
+
+  - pytorch>=2.0
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.8
+
+
+  # Diffusion
+
+  - pip
+  - pip:
+      - diffusers>=0.25.0
+      - transformers>=4.36.0
+      - accelerate
+      - safetensors
+      - huggingface-hub
+
+      # Vision / CV
+
+      - opencv-python
+      - pillow
+      - scipy
+      - numpy
+
+      # Optional (robust pipeline)
+
+      - rembg
+      - onnxruntime
