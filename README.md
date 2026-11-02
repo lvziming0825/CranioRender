@@ -17,6 +17,44 @@ The framework integrates Stable Diffusion inpainting with ControlNet to produce 
 
 The project aims to support research into AI-assisted orthodontic visualization and communication.
 
+
+## Visual Demonstration
+
+The following figures are reproduced from our published research in the *Journal of Dentistry* (2026).
+
+### Figure 3. Geometric Consistency Validation
+
+Our framework evaluates geometric consistency between the target cephalometric soft-tissue contour and the AI-generated facial profile through anatomical landmark correspondence.
+
+<p align="center">
+  <img src="assets/Figure_3.png"
+       alt="Geometric consistency validation"
+       width="850">
+</p>
+
+### Figure 4. Perceptual Image Quality Evaluation
+
+To assess image synthesis quality, we compare task-relevant facial regions between the reference photograph and the AI-generated result using LPIPS, SSIM, and PSNR.
+
+<p align="center">
+  <img src="assets/Figure_4.png"
+       alt="Perceptual image quality evaluation"
+       width="850">
+</p>
+
+### Associated Publication
+
+**Wang F, Lyu Y, Yang Y.**
+
+Beyond geometric deformation: High-fidelity orthodontic profile synthesis via ControlNet-guided generative AI.
+
+*Journal of Dentistry*. 2026;174:106916.
+
+**DOI:** https://doi.org/10.1016/j.jdent.2026.106916
+
+Figures 3 and 4 are reproduced from the published open-access article, © 2026 The Authors, under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).
+
+
 ## Publication
 
 **Beyond geometric deformation: High-fidelity orthodontic profile synthesis via ControlNet-guided generative AI**
